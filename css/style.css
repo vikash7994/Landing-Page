@@ -1,0 +1,400 @@
+
+
+@font-face {
+    font-family: Avenir;
+    src: url("/Fonts/Avenir.ttc");
+  }
+  @font-face {
+    font-family: AvenirLTP;
+    src: url("/Fonts/AvenirLTProBlack.otf");
+  }
+  @font-face {
+    font-family: AvenirLTPLight;
+    src: url("/Fonts/AvenirLTProLight.otf");
+  }
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+
+.banner-slider img{
+    width: 100%;
+}
+
+#container{
+margin-top: 110px;
+padding: 0;
+position: relative;
+    width: 100%;
+}
+
+.title{
+    padding-left: 35px;
+        border-left: 3px solid #c80000;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 30px;
+        width: 12%;
+    }
+
+
+    .form_title{
+        position: absolute;
+        top: -19px;
+        padding: 7px;
+        left: 500px;
+        background-color: #c80000;
+        text-align: center;
+        font-size: 16px;
+        width: 30%;
+        color: white;
+
+    }
+  
+    .form {
+        width: 65%;
+      box-shadow: 0px -4px 45px 0 rgba(0, 0, 0, 0.2);
+      padding: 10px 30px 15px 30px;
+      margin: 0 auto;
+    }
+    .para1{
+        position: absolute;
+        left: 478px;
+        top:47px;
+        text-align: center;
+        background-color: #c80000;
+        width: 392px;
+        padding: 10px;
+        margin: 21px 5px 28px 10px;
+        color: white;
+        font-size: 22px;
+    }
+    .para2 {
+        padding-top: 14px;
+      text-align: right;
+      color: #c80000;
+    }
+    fieldset {
+        border: none;
+      }
+     
+      input[type="text"] :active {
+        border: none;
+      }
+      
+      input[type="text"] :active {
+        border: none;
+      }
+      label :focus {
+        border: none;
+      }
+      ::placeholder {
+        color: #c80000;
+        opacity: 1;
+      }
+      
+      input[type="text"] {
+        margin: 10px;
+        width: 48%;
+        font-size: 15px;
+        font-weight: bold;
+        border: none;
+        background-color: transparent;
+        border-bottom: 1px solid #c80000;
+        padding: 15px;
+      }
+      #select-city {
+        color: #c80000;
+        margin: 10px;
+        width: 45%;
+        padding: 15px 70px 15px 15px;
+        font-size: 15px;
+        font-weight: bold;
+        border: none;
+        background-color: transparent;
+        border-bottom: 1px solid #c80000;
+      }
+      input[type="Email"] {
+        font-size: 15px;
+        padding: 15px 70px 15px 15px;
+        margin: 10px;
+        font-weight: bold;
+        width: 96%;
+        border: none;
+        background-color: transparent;
+        border-bottom: 1px solid #c80000;
+      }
+      #select-source {
+        color: #c80000;
+        padding: 15px 70px 15px 15px;
+        margin: 10px;
+        font-size: 15px;
+        font-weight: bold;
+        border: none;
+        background-color: transparent;
+        border-bottom: 1px solid #c80000;
+      }
+      input[type="tel"] {
+        padding: 15px 70px 15px 15px;
+        font-size: 15px;
+        margin: 10px;
+        font-weight: bold;
+        border: none;
+        width: 35%;
+        background-color: transparent;
+        border-bottom: 1px solid #c80000;
+      }
+      #name{
+        color: #c80000;
+        font-size: 15px;
+        padding: 15px 35px 15px 15px;
+        margin: 10px;
+        font-weight: bold;
+        border: none;
+        background-color: transparent;
+        border-bottom: 1px solid #c80000;
+      }
+      :focus {
+        outline: none;
+      }
+      .button1 {
+        font-size: 20px;
+        font-family: serif;
+        color: #c80000;
+        font-weight: 550;
+        margin: 10px;
+        padding: 12px;
+        width: 20%;
+        height: 10%;
+        border: 1px solid #c80000;
+        background-color: white;
+      }
+      .button {
+        position: relative;
+        left: 320px;
+        font-size: 20px;
+        font-family: serif;
+        color: #c80000;
+        font-weight: 550;
+        margin: 25px;
+        padding: 6px;
+        width: 15%;
+        height: 10%;
+        border: 1px solid #c80000;
+        background-color: white;
+      }
+      .para{
+          text-align: left;
+          padding: 70px 225px;
+          font-size: 18px;
+      }
+      .para span{
+          font-weight: 550;
+          color: #c80000;
+      }
+
+
+      /* form below text */
+.form-txt{
+    font-family: AvenirLTPLight;
+    margin: 40px 200px 30px 240px;
+    font-family: AvenirLTP;
+    
+}
+.form-txt1{
+    margin: 75px 200px 30px 240px;
+}
+.form-txt p{
+    font-size: 23px;
+}
+
+.slider-txt{
+    margin-bottom: 40px;
+}
+
+/* footer start */
+.grid{
+    background-color: #343434;
+    color: white;
+
+    font-family:AvenirLTPLight ;
+
+    width: 100%;
+    padding: 20px;
+display: flex;
+justify-content: center;
+flex-direction: row;
+font-size: 17px;
+}
+
+.col-4 p{
+
+    padding-right: 20px;
+}
+.col-4 span{
+padding-left:20px;
+} 
+.section{
+    padding: 20px 65px;
+    background-color: #efefef;
+}
+.footer-section{
+    background-color: #efefef;
+    padding-left: 80px;
+    color: black;
+}
+.footer-section img{
+    width: 10%;
+    vertical-align: middle;
+}
+#spn{
+padding: 0 6px;
+}
+.footer-section a{
+text-decoration: none;
+color: black;
+font-size: 19px;
+}
+.footer{
+    text-align: justify;
+    padding-top:15px;
+
+font-size: 13px;
+line-height: 17px;
+    font-family: AvenirLTPLight;
+}
+.contact-footer-section
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+}
+.contact-footer-section span{
+    padding-left: 13px;
+}
+
+
+
+
+      @media screen and (max-width:767px){
+    .conatiner{
+        width: 100%;
+        margin: 0;
+        
+    }
+
+    /*start form */
+   
+    .title{
+        padding-left: 12px;
+        line-height: 20px;
+        font-size: 12px;
+    }
+    .form{
+        padding:24px 30px 30px 7px ;
+        width: 75%;
+    }
+    .form_title{
+        position: relative;
+        left: 86px;
+        top: 12px;
+        font-size: 8px;
+        width: 55%;
+    }
+    #name{
+        padding: 15px 18px 15px 18px;
+    }
+    #select-city{
+        width: 100%;
+        padding: 15px 94px 15px 18px;
+    }
+    #name{
+        padding: 15px 44px 15px 18px;
+    }
+    input[type="Email"]{
+        width: 100%;
+        padding: 15px 18px 15px 18px;
+    }
+    #select-source{
+        padding: 15px 90px 15px 18px;
+    }
+    input[type="tel"]{
+        padding: 15px 18px 15px 18px;
+        width: 100%;
+    }
+    .para2{
+        text-align: center;
+    }
+    .button1{
+        margin: 10px 24px;
+        width: 70%;
+    }
+    .button{
+        left: 20px;
+        margin: 26px 24px;
+        width: 70%;
+    }
+    .para{
+        padding: 40px;text-align: justify;
+    
+    }
+
+    input[type="text"] {
+
+        width: 100%;}
+.form-txt{
+
+    margin: 40px 0px 35px 20px;
+}
+.form-txt p{
+    font-size: 18px;
+}
+.grid{
+    line-height: 35px;
+    text-align: center;
+flex-direction: column;
+}
+.grid span{
+display: none;
+}
+
+
+
+
+/* footer */
+.footer-section{
+    padding-left: 22px;
+}
+.sss{
+    padding-top: 10px;
+}
+#spn{
+    display: inline;
+}
+
+
+.contact-footer-section
+{
+display: block;
+text-align: center;
+    line-height: 40px;
+}
+.contact-footer-section span
+{
+    display: none;
+}
+.section{
+    padding: 20px 22px;
+}
+
+.social-media-icn{
+    padding-top: 12px;
+}
+
+      }
